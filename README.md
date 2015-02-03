@@ -19,19 +19,26 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 * dimensionality reduction supporting very large features
 * kNN queries
 
-## upcoming (v0.2)
+## roadmap
+### v0.2
 * feature weights
 * small clean ups
 * cosine distance for NN
 
-## planned (v0.3+)
+### v0.3
+* abstraction of data sources
+* direct data source, i.e. from numpy
+
+### v0.4
+* introduce labels to data
+* infrastructure for supervised ml
+
+### v0.5+
 * unit tests
 * documentation
 * example code
 * dao write
-* supervised ml
 * autoencoders
-* combination of multiple data sources
 * ...
 
 ## get started (to be improved)
