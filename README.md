@@ -26,6 +26,7 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 * dao write
 * supervised ml
 * autoencoders
+* combination of multiple data sources
 * ...
 
 ## get started (to be improved)
