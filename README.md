@@ -19,6 +19,7 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 * kNN queries
 
 ## planned
+* feature weights
 * dao write
 * supervised ml
 * autoencoders
