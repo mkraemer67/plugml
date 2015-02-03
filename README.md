@@ -33,11 +33,15 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 * introduce labels to data
 * infrastructure for supervised ml
 
-### v0.5+
+### v0.5
 * unit tests
+
+### v0.6
+* dao.write
+
+### v0.7+
 * documentation
 * example code
-* dao write
 * autoencoders
 * ...
 
