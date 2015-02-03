@@ -8,6 +8,7 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 * no boilerplate code anymore for handling your numerical, categorical and text features
 * high modularity allows to easily plug your custom algorithms; no fighting against the framework
 * decouple your production code from the utilized machine learning techniques with SQL as loose interface
+* plugml runs in a production environment and is thus constantly tested for stability
 
 ## features
 * directly load data from a SQL table, no more boilerplate code
