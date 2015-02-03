@@ -54,4 +54,4 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 6. load in KNN
 
 ## notes
-currently still under heavy development
+subject to signifant changes until at least v0.7
