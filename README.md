@@ -45,8 +45,12 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 * autoencoders
 * ...
 
-## ideas
+## long-term ideas
 * look into alternatives to psycopg2 dao, e.g. pandas?
+* automatic data extraction based on sql schema
+* intelligent application of ml techniques based on data structure
+* auto-identify semantic entities and relationships from data structures
+* match natural language queries to ml-specific actions, i.e. non-ml specialist interface to data analysis
 
 ## get started (to be improved)
 1. load data with dao
