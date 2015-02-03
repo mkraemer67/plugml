@@ -2,6 +2,7 @@
 easy-to-use and highly modular machine learning framework based on scikit-learn with postgresql data bindings
 
 ## why plugml
+* focus on the main problems, i.e. the machine learning, not the data munging
 * supports many use cases out of the box, e.g. document retrieval, document similarity
 * simply define the structure of your SQL table and automatically get your data
 * no boilerplate code anymore for handling your numerical, categorical and text features
