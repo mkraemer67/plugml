@@ -16,6 +16,7 @@ class Dao:
         class _Dao:
             def get(self, limit=None):
                 cursor = conn.cursor()
+                # todo: proper escape
                 sql = "SELECT * FROM %s ORDER BY %s" % (self._table, self._orderBy)
                 if limit:
                     sql += " LIMIT %i" % limit
