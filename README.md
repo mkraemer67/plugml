@@ -45,6 +45,9 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 * autoencoders
 * ...
 
+## ideas
+* look into alternatives to psycopg2 dao, e.g. pandas?
+
 ## get started (to be improved)
 1. load data with dao
 2. define data
