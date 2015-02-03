@@ -21,6 +21,8 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 
 ## planned
 * feature weights
+* unit tests
+* documentation
 * dao write
 * supervised ml
 * autoencoders
