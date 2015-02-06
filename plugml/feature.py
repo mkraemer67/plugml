@@ -72,7 +72,14 @@ class TextFeature(RawFeature):
         return [self._tokenizeText(text) for text in data]
 
     def _setup(self):
-        self._vec = TfidfVectorizer(analyzer=lambda x: x)
+        self._vec = TfidfVectorizer(
+            analyzer=lambda x: x,
+            sublinear_tf=True,
+            smooth_idf=True,
+            norm='l2',
+            min_df=2,
+            max_df=0.9
+        )
         self._vec.fit(self.data)
         self.featNames = self._vec.get_feature_names()
         self.dim = len(self.featNames)
