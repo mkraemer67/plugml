@@ -16,16 +16,11 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 * out-of-the-box support for numerical, categorical and text features
 * high performance as it utilizes scikit-learn, sparse scipy matrices, ...
 * plug your custom feature extractors with minimal effort
-* automatic feature scaling and imputation
+* automatic feature scaling and imputation; custom weights
 * dimensionality reduction supporting very large features
 * kNN queries
 
 ## roadmap
-### v0.2
-* feature weights
-* small clean ups
-* cosine distance for NN
-
 ### v0.3
 * abstraction of data sources
 * direct data source, i.e. from numpy
