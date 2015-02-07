@@ -10,6 +10,7 @@ class Extractor:
         self._map = {name:i for name, i in zip(self.names, range(len(self.feats)))}
         self.featNames = [feat.featNames for feat in self.feats]
         self.featNames = [name for names in self.featNames for name in names]
+        self.dim = sum([feat.dim for feat in self.feats])
 
     def __getitem__(self, key):
         # Return column.

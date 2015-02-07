@@ -22,23 +22,18 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 
 ## roadmap
 ### v0.3
-* theanets autoencoders as compressors (both feed-forward and recurrent)
-* use recurrent autoencoder for nlp instead of bag of wards (or rather provide option)
+* theanets autoencoders as compressors (feed-forward)
 
 ### v0.4
+* theanet recurrent autoencoder
+* use recurrent autoencoder for nlp instead of bag of wards (or rather provide option)
+
+### v0.5
 * introduce labels to data
 * infrastructure for supervised ml
 
-### v0.5
-* theanets rnns for regression/classification
-
 ### v0.6
-* dao.write
-
-### v0.7+
-* documentation
-* example code
-* ...
+* theanets rnns for regression/classification
 
 ## long-term ideas
 * automatic data extraction based on sql schema
@@ -55,4 +50,4 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 6. load in KNN
 
 ## notes
-subject to signifant changes until at least v0.7
+subject to signifant changes until at least v1.0
