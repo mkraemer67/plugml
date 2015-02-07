@@ -22,15 +22,15 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 
 ## roadmap
 ### v0.3
-* abstraction of data sources
-* direct data source, i.e. from numpy
+* theanets autoencoders as compressors (both feed-forward and recurrent)
+* use recurrent autoencoder for nlp instead of bag of wards (or rather provide option)
 
 ### v0.4
 * introduce labels to data
 * infrastructure for supervised ml
 
 ### v0.5
-* unit tests
+* theanets rnns for regression/classification
 
 ### v0.6
 * dao.write
@@ -38,15 +38,13 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 ### v0.7+
 * documentation
 * example code
-* autoencoders
 * ...
 
 ## long-term ideas
-* look into alternatives to psycopg2 dao, e.g. pandas?
 * automatic data extraction based on sql schema
 * intelligent application of ml techniques based on data structure
 * auto-identify semantic entities and relationships from data structures
-* match natural language queries to ml-specific actions, i.e. non-ml specialist interface to data analysis
+* (match natural language queries to ml-specific actions, i.e. non-ml specialist interface to data analysis)
 
 ## get started (to be improved)
 1. load data with dao
