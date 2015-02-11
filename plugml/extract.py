@@ -1,6 +1,5 @@
 import numpy as np
 from scipy.sparse import hstack
-from sklearn.preprocessing import StandardScaler
 
 class Extractor:
     def __init__(self, features, weights=None):
@@ -18,7 +17,7 @@ class Extractor:
             return self.feats[self._map[key]][:] * self.weights[self._map[key]]
         # Return row.
         if isinstance(key, (int, long, np.int64)):
-            return hstack([feat[key] * self.weights[key] for feat in self.feats])
+            return hstack([feat[key] * self.weights[self._map[feat.name]] for feat in self.feats])
         # Return element.
         row, col = key
         if isinstance(col, basestring):

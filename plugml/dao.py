@@ -20,6 +20,16 @@ class Dao:
                 cursor.execute(sql)
                 return cursor.fetchall()
 
+            def put(self, table, data):
+                cursor = conn.cursor()
+                cursor.execute("DELETE FROM %s" % table)
+                for i, vec in data:
+                    sql = "INSERT INTO %s VALUES (%%s, %%s)" % table
+                    arr = "{" + ','.join([str(x) for x in vec]) + "}"
+                    cursor.execute(sql, (i, arr))
+                conn.commit()
+                return True
+
         return _Dao()
 
     def __exit__(self, type, value, traceback):
