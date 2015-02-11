@@ -1,14 +1,11 @@
 import psycopg2
 
 class Dao:
-    def __init__(self, db_name, db_user, db_password):
-        self._name = db_name
-        self._user = db_user
-        self._pass = db_password
+    def __init__(self, dbUrl):
+        self._url = dbUrl
 
     def __enter__(self):
-        conn = psycopg2.connect("dbname=%s user=%s password=%s" %
-            (self._name, self._user, self._pass))
+        conn = psycopg2.connect(self._url)
         self.conn = conn
 
         class _Dao:
