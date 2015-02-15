@@ -7,7 +7,6 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 * simply define the structure of your SQL table and automatically get your data
 * no boilerplate code anymore for handling your numerical, categorical and text features
 * high modularity allows to easily plug your custom algorithms; no fighting against the framework
-* decouple your production code from the utilized machine learning techniques with SQL as loose interface
 * plugml is used for prototyping models for our production app, so it is part of the lifecycle of an actually used product
 
 ## features
@@ -41,7 +40,7 @@ easy-to-use and highly modular machine learning framework based on scikit-learn 
 * auto-identify semantic entities and relationships from data structures
 * (match natural language queries to ml-specific actions, i.e. non-ml specialist interface to data analysis)
 
-## get started (to be improved)
+## get started (to be shown in ipynb)
 1. load data with dao
 2. define data
 3. define features
